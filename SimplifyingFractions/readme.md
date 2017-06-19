@@ -1,4 +1,4 @@
-# /r/dailyprogrammer challenges
+# /r/dailyprogrammer challenge - [Simplifying fractions](https://www.reddit.com/r/dailyprogrammer/comments/4uhqdb/20160725_challenge_277_easy_simplifying_fractions/)
 
 ## Description
 
