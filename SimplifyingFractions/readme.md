@@ -28,3 +28,17 @@ Output should be the most simplified numbers:
     7 18
     7673 4729
     4 1
+
+### My Solution(s)
+
+I wrote two solutions to this challenge. The first one takes in an input file (input.txt), solves everything, and then outputs (output.txt) all the simplified numbers. This is a more monolithic solution that works well to solve the Reddit challenge as-is.
+
+The second solution is a CLI program that takes in terminal arguments as the numbers after being compiled. For example:
+
+    ./short_version 4 8
+
+The output would be:
+
+    $ 1 2
+
+
