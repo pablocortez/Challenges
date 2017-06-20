@@ -76,3 +76,26 @@ To receive credit, you must solve all 20 of the input puzzles.  Your program mus
     bgbrgy
     yggggy
     yyyyyy
+
+### Background Info
+
+**Boolean Satisfiability (SAT)**
+This determines if there exists an interpretation that satisifies a given Boolean formula.
+
+A Boolean formula has four components:
+
+1. Variables
+    a. These variables take on only two Boolean values, i.e. true or false (1 for true, 0 for false)
+2. "NOT" which is shown as x̄, this negates the value of the variable.  If x = 1, then x̄ = 0.
+3. "AND" which uses the following notation: ∧
+    a. (x1 ∧ x2)
+    b. If x1 = 0 and x2 = 0, the expression above would evaluate to 0. Only (1 ∧ 1) evaluates to 1. (0 ∧ 1) = 0, (1 ∧ 0) = 0. Both x1 AND x2 have to be true for the expression to evaluate to true.
+4. "OR" which uses the following notation: ∨
+    a. (x1 ∨ x2)
+    b. If at least one variable is true, the entire expression evaluates to true.
+    c. (0 ∨ 1) = 1, (1 ∨ 1) = 1, (1 ∨ 0) = 1
+    d. (0 ∨ 0) = 0
+
+Here's an [excellent link](http://bigocheatsheet.com/) to a cheatsheet for Big O notation.
+
+* **P vs. N-P Problems**
