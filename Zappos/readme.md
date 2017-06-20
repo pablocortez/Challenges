@@ -49,30 +49,30 @@ To receive credit, you must solve all 20 of the input puzzles.  Your program mus
     ......
 
 ### Output:
-  oooooo
-  oyyyyy
-  oyrrry
-  ogggry
-  ogoorb
-  ooobbb
+    oooooo
+    oyyyyy
+    oyrrry
+    ogggry
+    ogoorb
+    ooobbb
 
-  bbbbyy
-  bgggyb
-  bgryyb
-  bgrrrb
-  bgggrb
-  bbbbbb
+    bbbbyy
+    bgggyb
+    bgryyb
+    bgrrrb
+    bgggrb
+    bbbbbb
 
-  oooooo
-  oyyyyy
-  oyrrry
-  ogggry
-  ggbbry
-  bbbyyy
+    oooooo
+    oyyyyy
+    oyrrry
+    ogggry
+    ggbbry
+    bbbyyy
 
-  bbbryy
-  bgbrgy
-  bgbrgy
-  bgbrgy
-  yggggy
-  yyyyyy
+    bbbryy
+    bgbrgy
+    bgbrgy
+    bgbrgy
+    yggggy
+    yyyyyy
