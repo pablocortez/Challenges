@@ -77,9 +77,15 @@ To receive credit, you must solve all 20 of the input puzzles.  Your program mus
     yggggy
     yyyyyy
 
+<<<<<<< HEAD
 ## Background Info
 ==================================================
 #### **Boolean Satisfiability (SAT)**
+=======
+### Background Info
+
+**Boolean Satisfiability (SAT)**
+>>>>>>> 849d8c4a6468d8b1dc2bcb97aa0ff234c8cd5199
 This determines if there exists an interpretation that satisifies a given Boolean formula.
 
 A Boolean formula has four components:
