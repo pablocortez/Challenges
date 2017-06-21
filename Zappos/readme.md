@@ -77,9 +77,9 @@ To receive credit, you must solve all 20 of the input puzzles.  Your program mus
     yggggy
     yyyyyy
 
-### Background Info
-
-**Boolean Satisfiability (SAT)**
+## Background Info
+==================================================
+#### **Boolean Satisfiability (SAT)**
 This determines if there exists an interpretation that satisifies a given Boolean formula.
 
 A Boolean formula has four components:
@@ -98,4 +98,27 @@ A Boolean formula has four components:
 
 Here's an [excellent link](http://bigocheatsheet.com/) to a cheatsheet for Big O notation.
 
-* **P vs. N-P Problems**
+#### **P vs. N-P Problems**
+P and NP are two categories of problems. P or NP determines whether a problem can be solved by a computer, and if it's easy or not to do so. P referers to problems that are "easy" to solve for a computer. Examples of these are a Rubik's cube, because a computer can, well, _compute_ a solution pretty easily. By "easy", it's meant that in a problem of category P, there is an algorithm that solves the problem in __P__ olynomial time.
+
+For some problems, however, it may not be easy to find an answer quickly, but if one is provided, then it can be verified easily. These are class NP. An example is a sudoku puzzle. It's easy to check if a sudoku puzzle has been solved correctly, but it takes a considerably long time to solve a sudoku grid. Another example could be a 2000-piece jigsaw puzzle. It's very easy and quick to verify if it's been solved correctly, all we have to do is look at it. However, actually solving it is time consuming.
+
+**What is Polynomial time?**
+Polynomial time means that the time to complete the problem (solve the task) varies as a polynomal function on the size of the input to the algorithm.
+The time a computation takes depends on the amount of input data; it takes longer to alphabetically sort a list of 1000 students than 10 students. Depending on the computation, the time based on the amount of data will be different though. A computation like multiplying, dividing, subtracting or adding is much different than a problem dealing with combinations or permutations, like the Traveling Salesman Problem (TSP).
+
+**Example:**
+For a particular algorithm, the time dependency could be given by:
+
+    T = 2.3n^2 + 3n + 6
+
+This would be a polynomial algorithm, since T is given in polynomial terms. As n gets very large, the first term in the T function will be much larger than the others, so we can ignore the other terms without the introduction of much of an error. Since we only care about the proportion between T (time) and n (the input), we can drop the 2.3 factor, shortening it all to
+
+    T = n^2
+
+Or the more common notation (big-O notation):
+
+    O(n^2)
+
+Other algorithms may be O(n) or O(n^3), but they are all polynomial.
+An algorithm could also run in constant time, so no matter how much input data there is, the time is the same. This is written as O(1).
